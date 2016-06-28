@@ -2,5 +2,8 @@
   name: zshのmanの1ページ目、概要を読んでみる。
   dir: 160618_zsh_overview
 - id: 2
+  name: zshroadmapを読む。
+  dir: 160625_zshroadmap
+- id: 3
   name: zshmiscを読む。
-  dir: 160626_zshmisc
+  dir: 160702_zshmisc
