@@ -7,3 +7,6 @@
 - id: 3
   name: zshmiscを読む。
   dir: 160702_zshmisc
+- id: 4
+  name: zshmiscを読む。（続き）
+  dir: 160709_zshmisc
