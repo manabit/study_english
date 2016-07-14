@@ -1,3 +1,11 @@
+---
+layout: post
+title: zsh miscを読む
+date: 2016-07-03 22:32:00 +0900
+author: matthew
+tags: [read]
+---
+
 # zsh misc
 
 ## 進捗

@@ -1,3 +1,11 @@
+---
+layout: post
+title: zsh overviewを読む
+date: 2016-06-18 23:40:00 +0900
+author: mitsuru793
+tags: [read]
+---
+
 # 感想
 まだ全部読んでいない。
 

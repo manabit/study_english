@@ -1,12 +1,20 @@
-# TwitterAPI設定画面のSettingタブ
+---
+layout: post
+title: TwitterAPI設定画面のSettingタブ
+date: 2016-07-11 16:46:00 +0900
+author: mitsuru793
+tags: [read]
+---
 
-## 感想
+# 感想
 
 Consumer KeyとAccess Tokenの違いを調べるために読み始めた。他の解説記事を頼りにせずとも、本家で解決できるために。結果として、今回のページには該当の内容は書いてなかったが違いは推測できた。
 
 Consumer KeyはアプリのユニークIDで、アプリを識別するもの。Access Tokenは各ユーザーがこれを使ってアプリから自分のアカウントを操作する。Access Tokenはどういう仕組みかはわからない。操作させる許可は、アカウントごとにConsumer Keyを登録しておけば済むのではないのかと思った。
 
 この2つのKeyにはSecret Keyというものがある。これはおそらく各Keyのパスワードみたいなものだと思う。
+
+# 学習記録
 
 ## attributeの使われ方
 
