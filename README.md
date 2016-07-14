@@ -18,7 +18,22 @@ history.ymlにまとめてあります。
 
 ## 題材候補
 
-* man
-* コミットメッセージ
-* Developer向けサイト
-* VPSなどの海外サービスのサイト
+[trelloに興味あるテーマをまとめています](https://trello.com/b/owyxuJsx/-)
+
+# 記述フォーマット
+
+jekyllで管理するためにYaml Front Matterを付けて下さい。プロパティは下記の通りです。
+
+```yaml
+---
+layout: post
+title: zsh roadmapを読む
+date: 2016-06-28 10:03:00 +0900
+author: mitsuru793
+tags: [read]
+---
+```
+
+現在時刻の挿入は`.vimrc`に下記を記述すると、ノーマルモード時にF6で入力できるようになります。
+
+`nmap <F6> <ESC>i<C-R>=strftime("%Y-%m-%d %H:%M:%S +0900")<CR>`
