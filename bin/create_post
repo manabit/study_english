@@ -5,8 +5,8 @@ if [ "$1" = "" ]; then
   exit
 fi
 
-user_name=`git config --get user.name`
-current_date=`date "+%Y-%m-%d %H:%M:%S %z"`
+user_name=$(git config --get user.name)
+current_date=$(date "+%Y-%m-%d %H:%M:%S %z")
 cat << EOF > "${user_name}_${1}"
 ---
 layout: post
